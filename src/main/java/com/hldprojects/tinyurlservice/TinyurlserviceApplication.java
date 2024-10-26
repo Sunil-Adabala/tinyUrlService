@@ -14,9 +14,6 @@ public class TinyurlserviceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TinyurlserviceApplication.class, args);
 		System.out.println("started");
-//		KeyDao keyDao = new KeyDao(new DataSource());
-//		Set<String> set = new HashSet<>();
-//		keyDao.saveKeys(set);
 	}
 
 }

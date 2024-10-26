@@ -9,6 +9,7 @@ public class UrlResponse {
     private String tinyUrl;
 
     public UrlResponse(String tinyUrl) {
-        this.tinyUrl = tinyUrl;
+        String prefix = "http://short.ly/";
+        this.tinyUrl = prefix + tinyUrl;
     }
 }
